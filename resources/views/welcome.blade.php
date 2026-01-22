@@ -1,4 +1,4 @@
 <?
-  $name = ['Julian']
+  $name = ['Julian','Zico']
 
 ?>

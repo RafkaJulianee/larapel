@@ -16,9 +16,9 @@
     </style>
 </head>
 <body>
-    <a href=""></a>
-    <a href=""></a>
-    <a href=""></a>
+    <a href="">Home</a>
+    <a href="">About</a>
+    <a href="">Contact</a>
     <h1>Hello World</h1>
 </body>
 </html>

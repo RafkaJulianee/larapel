@@ -15,9 +15,9 @@
         }
         a{
             text-decoration: none;
-            display: flex;
+            display: inline;
             color: black;
-            
+
 
             
         }

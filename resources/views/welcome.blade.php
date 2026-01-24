@@ -15,8 +15,11 @@
         }
         a{
             text-decoration: none;
+            display: flex;
+            color: black;
             
-            dis
+
+            
         }
     </style>
 </head>

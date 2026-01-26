@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Kelas;
 use Illuminate\Http\Request;
+;
 
 class KelasConstroller extends Controller
 {
@@ -11,7 +13,8 @@ class KelasConstroller extends Controller
      */
     public function index()
     {
-        //
+        $data =Kelas::all();
+        return view('kelas.index', compact('data'));
     }
 
     /**

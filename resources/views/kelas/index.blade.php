@@ -4,17 +4,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Data Kelas</title>
+    <style>
+
+      
+      
+   
+    </style>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   </head>
   <body>
     <div class="container">
-        <h3>Data Kelas</h3>
+      <br><br>
+        <h3 style="text-align: center">DATA KELAS</h3>
         <table class="table">
   <thead>
     <tr>
-      <th scope="col">#</th>
+      <th scope="col">No</th>
       <th scope="col">Nama Kelas</th>
       <th scope="col">Jurusan</th>
       <th scope="col">Aksi</th>

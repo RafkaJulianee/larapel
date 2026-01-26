@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-        
+        body{
+            font-family: sans-serif;
+            
+        }
     </style>
 </head>
 <body>

@@ -28,24 +28,14 @@
     </tr>
   </thead>
   <tbody>
+    @foreach($data as $kelas)
     <tr>
       <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+      <td>{{$kelas->nama_kelas}}</td>
+      <td>{{$kelas->jurusan}}</td>
+      <td style="color: blue">Ubah | Hapus</td>
     </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>John</td>
-      <td>Doe</td>
-      <td>@social</td>
-    </tr>
+    @endforeach
   </tbody>
 </table>
 

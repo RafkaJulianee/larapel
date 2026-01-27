@@ -15,11 +15,13 @@
             @method('PUT')
             <div class="mb-3">
               <label for="nama_kelas" class="form-label">Nama Kelas</label>
-              <input type="text" class="form-control" id="nama_kelas" name="nama_kelas">
+              <input type="text" class="form-control" id="nama_kelas" name="nama_kelas" value="{{$kelas->nama_kelas}}">
             </div>
             <div class="mb-3">
               <label for="jurusan" class="form-label">Jurusan</label>
-              <input type="text" class="form-control" id="jurusan" name="jurusan">
+              <input type="text" class="form-control" id="jurusan" name="jurusan" value="{{$kelas->jurusan}}">
+
+              
             </div> 
             <button type="submit" class="btn btn-primary">Simpan</button>
           </form>

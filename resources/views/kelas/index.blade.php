@@ -34,7 +34,7 @@
       <th scope="row">1</th>
       <td>{{$kelas->nama_kelas}}</td>
       <td>{{$kelas->jurusan}}</td>
-      <td style="color: blue">Ubah | Hapus</td>
+      <td><a href="{{route('kelas.edit',$kelas->id)}}" class="btn btn-warning btn-sm" >Ubah</a> | Hapus</td>
     </tr>
     @endforeach
   </tbody>

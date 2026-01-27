@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Models\Kelas;
 use Illuminate\Http\Request;
+
+use function PHPUnit\Framework\returnArgument;
+
 ;
 
 class KelasConstroller extends Controller
@@ -22,7 +25,7 @@ class KelasConstroller extends Controller
      */
     public function create()
     {
-        //
+        return view('kelas.create');
     }
 
     /**

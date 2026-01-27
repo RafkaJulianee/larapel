@@ -66,7 +66,18 @@ class KelasConstroller extends Controller
      */
     public function update(Request $request, string $id)
     {
-        //
+        $request->validate([
+            'nama_kelas' => 'required',
+            'jurusan' => 'required',
+        ]);
+
+        $kelas = Kelas::findOrFail($id);
+        $kelas->update([
+            'nama_kelas' => $request->nama_kelas,
+            'jurusan' => $request->jurusan,
+        ]);
+
+        return redirect()->route('kelas.index')->with('success', 'Data kelas berhasil diperbarui.');
     }
 
     /**
@@ -74,6 +85,9 @@ class KelasConstroller extends Controller
      */
     public function destroy(string $id)
     {
-        //
+        $kelas = Kelas::findOrFail($id);
+        $kelas->delete();
+
+        return redirect()->route('kelas.index')->with('success', 'Data kelas berhasil dihapus.');
     }
 }

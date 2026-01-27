@@ -8,10 +8,11 @@
   </head>
   <body>
     <div class="container">
-        <h3>Form Tambah Kelas</h3>
+        <h3 style="text-align: center">Edit Data</h3>
         
-        <form action="{{ route('kelas.store')}}" method="POST">
+        <form action="{{ route('kelas.update',$kelas->id)}}" method="POST">
             @csrf
+            @method('PUT')
             <div class="mb-3">
               <label for="nama_kelas" class="form-label">Nama Kelas</label>
               <input type="text" class="form-control" id="nama_kelas" name="nama_kelas">

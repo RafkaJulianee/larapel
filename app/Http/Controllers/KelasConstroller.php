@@ -25,7 +25,7 @@ class KelasConstroller extends Controller
      */
     public function create()
     {
-        return view('kelas.create');
+        return view('Kelas.create');
     }
 
     /**
@@ -33,7 +33,15 @@ class KelasConstroller extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'nama_kelas' => 'required',
+            'jurusan' => 'required',
+        ]);
+        Kelas::create([
+            'nama_kelas' => $request-> nama_kelas,
+            'jurusan' => $request->jurusan,
+        ]);
+        return redirect()->route('kelas.index')->with('success', 'Data kelas berhasil ditambahkan.');
     }
 
     /**

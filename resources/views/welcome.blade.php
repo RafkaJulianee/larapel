@@ -7,10 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1></h1>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
+    
 </body>
 </html>

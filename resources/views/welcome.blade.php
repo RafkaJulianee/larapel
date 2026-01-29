@@ -7,14 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    p
-
-    p
-    ululuu
+    <h1></h1>
 </body>
 </html>

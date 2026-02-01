@@ -8,5 +8,5 @@ const haspasort= true;
 if (haspasort){
     console.log("Kamu Boleh Keluar Negri")
 }else{
-   console.log("")
+   console.log("try again")
 }

@@ -1,9 +1,5 @@
 
-
-const apel = 5
-const jeruk =3
-const priceapel = 3000
-const pricejeruk = 4000
-
-
+const ImTall = false;
+const icancook = false;
+const hasbrother= true;
 

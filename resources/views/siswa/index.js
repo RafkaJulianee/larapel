@@ -7,4 +7,6 @@ const haspasort= true;
 
 if (haspasort){
     console.log("Kamu Boleh Keluar Negri")
+}else{
+ 
 }

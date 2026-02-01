@@ -5,4 +5,6 @@ const hasbrother= true;
 
 const haspasort= true;
 
-if {has}
+if (haspasort){
+    console.log("Kamu Boleh Keluar Negri")
+}

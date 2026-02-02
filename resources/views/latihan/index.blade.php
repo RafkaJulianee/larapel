@@ -7,6 +7,10 @@
     <title></title>
 </head>
 <body>
-    
+    <h1>Hello World</h1>
+    <script>
+        const h1 = document.querySelector('h1');
+        h1.style.color = 'red';
+    </script>
 </body>
 </html>

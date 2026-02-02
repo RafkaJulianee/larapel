@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,12 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <script>
-        const name ='rafka'
-        const age =16;
-        const hei
-        const haveacar=false;
-
-    </script>
+    
 </body>
 </html>

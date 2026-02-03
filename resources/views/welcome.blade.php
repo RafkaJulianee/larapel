@@ -13,8 +13,12 @@
     }
 
     h1{
-        text-align: center
+        text-align: center;
     }
+    p{
+        text-align: center;
+    }
+    
 </style>
 <body>
     <h1>Hello World</h1>

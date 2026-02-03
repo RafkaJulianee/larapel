@@ -8,7 +8,7 @@
 </head>
 <style>
     body{
-        fo
+    font-family: sans-serif
     }
 </style>
 <body>

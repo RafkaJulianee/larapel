@@ -15,4 +15,4 @@ Route::get('/kelas/{id}/edit', [KelasConstroller::class, 'edit'])->name('kelas.e
 Route::put('/kelas/{id}', [KelasConstroller::class, 'update'])->name('kelas.update');
 Route::get('/kelas/{id}', [KelasConstroller::class, 'destroy'])->name('kelas.destroy');
 Route::resource('siswa', SiswaController::class);
-Route::get('/shop', [ShopController::class, 'index'])->name('shop.index');
+

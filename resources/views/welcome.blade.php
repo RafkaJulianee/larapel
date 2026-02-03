@@ -8,7 +8,12 @@
 </head>
 <style>
     body{
-    font-family: sans-serif
+    font-family: sans-serif;
+    background-color: beige
+    }
+
+    h1{
+        text-align: center
     }
 </style>
 <body>

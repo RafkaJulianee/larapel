@@ -10,6 +10,7 @@
     <h1></h1>
     <p></p>
     <a href=""></a>
+    <img src="" alt="">
 
 </body>
 </html>

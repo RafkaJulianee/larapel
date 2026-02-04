@@ -7,12 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1></h1>
-    <p></p>
-    <a href=""></a>
-    p
-    
-    <img src="" alt="">
-
+    <h1>Welcome To My World</h1>
 </body>
 </html>

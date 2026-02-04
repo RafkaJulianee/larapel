@@ -6,25 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<style>
-    body{
-    font-family: sans-serif;
-    background-color: beige
-    }
-
-    h1{
-        text-align: center;
-    }
-    p{
-        text-align: center;
-    }
-    
-</style>
 <body>
-    <h1>Hello World</h1>
-    <p>This is a paragraph</p>
-    <script>
     
-    </script>
 </body>
 </html>

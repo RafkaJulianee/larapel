@@ -7,8 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Welcome To My World</h1>
-    <p>this is my frist experince with laravel</p>
-    
+    <h1>Hello WOrld</h1>
 </body>
 </html>

@@ -29,8 +29,8 @@
                         SU
                     </div>
                     <div>
-                        <h1 class="font-bold text-xl leading-none text-gray-900">Sekolah<span class="text-orange-600">Unggul</span></h1>
-                        <p class="text-xs text-gray-500 font-medium tracking-wide">SINCE 1998</p>
+                        <h1 class="font-bold text-xl leading-none text-gray-900">SMKN<span class="text-orange-600">1 KAWALI</span></h1>
+                        <p class="text-xs text-gray-500 font-medium tracking-wide"></p>
                     </div>
                 </div>
 

@@ -45,7 +45,7 @@
 
                 <!-- CTA Button -->
                 <div class="hidden md:flex">
-                    <a href="#" class="px-6 py-2.5 bg-orange-600 hover:bg-orange-700 text-white text-sm font-semibold rounded-full transition-all duration-300 shadow-lg shadow-orange-500/30 hover:shadow-orange-500/50 transform hover:-translate-y-0.5">
+                    <a href="{{ route('siswa.index') }}" class="px-6 py-2.5 bg-orange-600 hover:bg-orange-700 text-white text-sm font-semibold rounded-full transition-all duration-300 shadow-lg shadow-orange-500/30 hover:shadow-orange-500/50 transform hover:-translate-y-0.5">
                         Daftar Sekarang
                     </a>
                 </div>
@@ -68,7 +68,7 @@
                 <a href="#fasilitas" class="block px-3 py-2 rounded-lg text-base font-medium text-gray-600 hover:text-orange-600 hover:bg-orange-50 transition-colors">Fasilitas</a>
                 <a href="#berita" class="block px-3 py-2 rounded-lg text-base font-medium text-gray-600 hover:text-orange-600 hover:bg-orange-50 transition-colors">Berita</a>
                 <div class="pt-4 mt-4 border-t border-gray-100">
-                    <a href="#" class="block w-full text-center px-6 py-3 bg-orange-600 text-white font-semibold rounded-xl shadow-lg shadow-orange-500/30 hover:bg-orange-700 transition-colors">
+                    <a href="{{ route('siswa.index') }}" class="block w-full text-center px-6 py-3 bg-orange-600 text-white font-semibold rounded-xl shadow-lg shadow-orange-500/30 hover:bg-orange-700 transition-colors">
                         Daftar Sekarang
                     </a>
                 </div>

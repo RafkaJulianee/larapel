@@ -130,9 +130,10 @@
                 <div class="relative">
                     <div class="absolute inset-0 bg-gradient-to-br from-orange-600 to-red-600 rounded-[2.5rem] rotate-3 opacity-20 transform translate-x-4 translate-y-4"></div>
                     <div class="relative rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white">
-                        <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Students learning" class="w-full h-[600px] object-cover hover:scale-105 transition-transform duration-700">
+                        <img src="img/kone.png" alt="Students learning" class="w-full h-[600px] object-cover hover:scale-105 transition-transform duration-700">
                         <div class="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-black/80 to-transparent">
                             <div class="text-white">
+
                                 <p class="font-bold text-lg">Lingkungan Belajar Kondusif</p>
                                 <p class="text-sm opacity-80">Fasilitas lengkap untuk menunjang prestasi.</p>
                             </div>

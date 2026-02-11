@@ -15,8 +15,12 @@ Route::post('/kelas', [KelasConstroller::class, 'store'])->name('kelas.store');
 Route::get('/kelas/{id}/edit', [KelasConstroller::class, 'edit'])->name('kelas.edit');
 Route::put('/kelas/{id}', [KelasConstroller::class, 'update'])->name('kelas.update');
 Route::get('/kelas/{id}', [KelasConstroller::class, 'destroy'])->name('kelas.destroy');
-Route::resource('siswa', SiswaController::class);       
+Route::resource('siswa', SiswaController::class);
 
 Route::get('/dominik', function () {
     return view('latihan.dominik');
 });
+
+Route::get('/olan', function () {
+    return view('olan');
+})->name('dashboard');

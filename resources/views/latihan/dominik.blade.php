@@ -33,7 +33,16 @@
             border-radius: 10px;
     
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);     
-        }       
+        }     
+        
+        .content{
+            background-image: url("img/hole.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            width: 100%;
+        }
     </style>
 </head>
 <body>
@@ -42,5 +51,9 @@
         <a href="">About</a>
         <a href="">Contact</a>
     </div>
+        
+    <div class="content">
+        
+    </div>  
 </body>
 </html>

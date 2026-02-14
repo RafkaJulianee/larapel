@@ -42,6 +42,10 @@
             background-repeat: no-repeat;
             height: 100vh;
             width: 100%;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
         }
     </style>
 </head>
@@ -51,7 +55,7 @@
         <a href="">About</a>
         <a href="">Contact</a>
     </div>
-        
+
     <div class="content">
         
     </div>  

@@ -47,6 +47,14 @@
             padding: 10px;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
         }
+
+        .content h1{
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 100px;
+        }       
     </style>
 </head>
 <body>
@@ -57,7 +65,7 @@
     </div>
 
     <div class="content">
-        
+        <h1>WELCOMETOBLACKHOLE</h1>
     </div>  
 </body>
 </html>

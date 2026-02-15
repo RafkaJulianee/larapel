@@ -55,6 +55,14 @@
             text-decoration: none;
             font-size: 100px;
         }       
+
+        .main h1 p{
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 100px;   
+        }
     </style>
 </head>
 <body>

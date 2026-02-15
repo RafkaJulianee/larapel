@@ -56,13 +56,7 @@
             font-size: 100px;
         }       
 
-        .main h1,p{
-            color: black;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 100px;   
-        }
+   
     </style>
 </head>
 <body>
@@ -76,9 +70,6 @@
         <h1>WELCOMETOBLACKHOLE</h1>
     </div>  
 
-    <div class="main">
-        <h1>Hello Friends Its Black Hole Page</h1>
-        <p>Welcome</p>
-    </div>
+
 </body>
 </html>

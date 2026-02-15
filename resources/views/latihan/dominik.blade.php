@@ -70,6 +70,7 @@
 
     <div class="main">
         <h1>Hello Friends Its Black Hole Page</h1>
+        <p>Welcome</p>
     </div>
 </body>
 </html>

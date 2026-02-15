@@ -24,3 +24,7 @@ Route::get('/dominik', function () {
 Route::get('/olan', function () {
     return view('olan');
 })->name('dashboard');
+
+Route::get('/belajar', function () {
+    return view('latihan.belajar');
+});

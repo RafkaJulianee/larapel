@@ -67,5 +67,9 @@
     <div class="content">
         <h1>WELCOMETOBLACKHOLE</h1>
     </div>  
+
+    <div class="main">
+        <h1>Hello Friends Its Black Hole Page</h1>
+    </div>
 </body>
 </html>

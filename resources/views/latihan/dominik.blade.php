@@ -56,8 +56,8 @@
             font-size: 100px;
         }       
 
-        .main h1 p{
-            color: white;
+        .main h1,p{
+            color: black;
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;

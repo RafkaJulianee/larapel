@@ -28,3 +28,7 @@ Route::get('/olan', function () {
 Route::get('/belajar', function () {
     return view('latihan.belajar');
 });
+
+Route::get('/kimi', function () {
+    return view('latihan.kimi');
+}); 

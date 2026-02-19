@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    @include('latihan.navbar') 
+    <x-navbar title="Kimi"></x-navbar>
 </body>
 </html>

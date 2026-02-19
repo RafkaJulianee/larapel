@@ -32,3 +32,7 @@ Route::get('/belajar', function () {
 Route::get('/kimi', function () {
     return view('latihan.kimi');
 }); 
+
+Route::get('/kimi', function () {
+    return view('latihan.kimi');
+}); 

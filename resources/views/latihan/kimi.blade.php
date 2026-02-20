@@ -7,5 +7,6 @@
 </head>
 <body>
     <x-navbar title="Kimi"></x-navbar>
+    <p>hello</p>
 </body>
 </html>

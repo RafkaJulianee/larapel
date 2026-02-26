@@ -17,18 +17,3 @@ Route::put('/kelas/{id}', [KelasConstroller::class, 'update'])->name('kelas.upda
 Route::get('/kelas/{id}', [KelasConstroller::class, 'destroy'])->name('kelas.destroy');
 Route::resource('siswa', SiswaController::class);
 
-Route::get('/dominik', function () {
-    return view('latihan.dominik');
-});
-
-Route::get('/olan', function () {
-    return view('olan');
-})->name('dashboard');
-
-Route::get('/belajar', function () {
-    return view('latihan.belajar');
-});
-
-Route::get('/kimi', function () {
-    return view('latihan.kimi');
-});

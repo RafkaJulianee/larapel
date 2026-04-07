@@ -17,3 +17,6 @@ Route::put('/kelas/{id}', [KelasConstroller::class, 'update'])->name('kelas.upda
 Route::get('/kelas/{id}', [KelasConstroller::class, 'destroy'])->name('kelas.destroy');
 Route::resource('siswa', SiswaController::class);
 
+Route::get('/login', [LoginController::class, 'showLoginForm'])->name('login');
+
+

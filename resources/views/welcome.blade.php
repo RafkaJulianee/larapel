@@ -27,7 +27,7 @@
                 <div class="flex-shrink-0 flex items-center gap-2">
                     <div class="w-10 h-10 bg-gradient-to-br from-orange-500 to-red-600 rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-orange-500/30">
                         SU
-                    </div>
+                    </div> 
                     <div>
                         <h1 class="font-bold text-xl leading-none text-gray-900">SMKN<span class="text-orange-600">1 KAWALI</span></h1>
                         <p class="text-xs text-gray-500 font-medium tracking-wide"></p>

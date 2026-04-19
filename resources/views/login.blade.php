@@ -325,16 +325,14 @@
 
         <!-- Right Panel -->
         <div class="right-panel">
-            <div class="language-selector">
-                English(USA) <i class="fa-solid fa-caret-down"></i>
-            </div>
+
 
             <h2>Login</h2>
 
             <form action="#" method="POST">
                 @csrf
                 <div class="input-group">
-                    <input type="email" name="email" placeholder="Email Address" required>
+                    <input type="email" name="email" placeholder="Username" required>
                 </div>
                 
                 <div class="input-group">
@@ -347,20 +345,10 @@
                     <label for="remember">Remember me</label>
                 </div>
 
-                <button type="submit" class="btn-submit">Login</button>
+                <button type="submit" class="btn-submit" onclick="event.preventDefault(); alert('belum bisa login sistem nya');">Login</button>
             </form>
 
-            <div class="divider">
-                <span>Or Sign In With</span>
-            </div>
 
-            <div class="social-logins">
-                <a href="#" class="social-btn google"><i class="fa-brands fa-google"></i></a>
-                <a href="#" class="social-btn facebook"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#" class="social-btn instagram"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#" class="social-btn twitter"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#" class="social-btn linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
-            </div>
 
             <div class="signup-link">
                 Don't Have an account? <a href="#">Sign up</a>

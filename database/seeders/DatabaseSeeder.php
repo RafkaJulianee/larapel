@@ -15,11 +15,16 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // User::factory(10)->create();
+        // Panggil RoleSeeder untuk membuat role admin & user terlebih dahulu
+        $this->call([
+            RoleSeeder::class,
+        ]);
 
         User::factory()->create([
             'name' => 'Test User',
             'email' => 'test@example.com',
+            // Default role_id untuk test user (misal 1 untuk admin atau user)
+            'role_id' => 1,
         ]);
     }
 }

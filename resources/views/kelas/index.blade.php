@@ -13,7 +13,7 @@
 <body>
   <div class="container">
     <br><br>
-    <h3 style="text-align: center">DATA KELAS</h3>
+    <h3 class="text-center">DATA KELAS</h3>
     <a href="{{route('kelas.create')}}" class="btn btn-primary mb-3">Tambah Kelas</a>
     <table class="table">
       <thead>

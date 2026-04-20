@@ -10,11 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/lucide@latest"></script>
-    <style>
-        body {
-            font-family: 'Plus Jakarta Sans', sans-serif;
-        }
-    </style>
+    <link rel="stylesheet" href="{{ asset('css/welcome.css') }}">
 </head>
 
 <body class="bg-gray-50 text-gray-800 antialiased selection:bg-orange-500 selection:text-white">
@@ -141,7 +137,7 @@
                     </div>
 
                     <!-- Floating Card -->
-                    <div class="absolute -bottom-6 -left-6 bg-white p-4 rounded-2xl shadow-xl border border-gray-100 max-w-xs animate-bounce" style="animation-duration: 3s;">
+                    <div class="absolute -bottom-6 -left-6 bg-white p-4 rounded-2xl shadow-xl border border-gray-100 max-w-xs animate-bounce [animation-duration:3s]">
                         <div class="flex items-center gap-3">
                             <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center text-green-600">
                                 <i data-lucide="award" class="w-6 h-6"></i>

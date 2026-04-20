@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="container">
-        <h3 style="text-align: center">Edit Data</h3>
+        <h3 class="text-center">Edit Data</h3>
         
         <form action="{{ route('kelas.update',$kelas->id)}}" method="POST">
             @csrf

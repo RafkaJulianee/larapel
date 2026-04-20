@@ -20,4 +20,15 @@ Route::get('/kelas/{id}/edit', [KelasConstroller::class, 'edit'])->name('kelas.e
 Route::put('/kelas/{id}', [KelasConstroller::class, 'update'])->name('kelas.update');
 Route::get('/kelas/{id}', [KelasConstroller::class, 'destroy'])->name('kelas.destroy');
 Route::resource('siswa', SiswaController::class);
+Route::middleware(['auth', 'role:admin'])->group(function () {
+    Route::get('/admin', function () {
+        return view('Halaman Admin');
+    });
+});
+Route::middleware(['auth', 'role:user'])->group(function () {
+    Route::get('/user', function () {
+        return view('Halaman User');
+    });
+});
+
 

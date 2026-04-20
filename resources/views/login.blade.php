@@ -35,7 +35,7 @@
 
             <h2>Login</h2>
 
-            <form action="#" method="POST">
+            <form action="#" method="POST" action="{{ route('login.post') }}">
                 @csrf
                 <div class="input-group">
                     <input type="email" name="email" placeholder="Username" required>

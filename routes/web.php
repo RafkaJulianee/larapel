@@ -22,12 +22,12 @@ Route::get('/kelas/{id}', [KelasConstroller::class, 'destroy'])->name('kelas.des
 Route::resource('siswa', SiswaController::class);
 Route::middleware(['auth', 'role:admin'])->group(function () {
     Route::get('/admin', function () {
-        return view('Halaman Admin');
+        return view("Halaman Admin");
     });
 });
 Route::middleware(['auth', 'role:user'])->group(function () {
     Route::get('/user', function () {
-        return view('Halaman User');
+        return view("Halaman User");
     });
 });
 

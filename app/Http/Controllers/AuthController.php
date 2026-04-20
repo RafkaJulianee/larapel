@@ -20,4 +20,10 @@ class AuthController extends Controller
         }
         return redirect()->back()->with('error', 'Login Gagal');
     }
+
+    public function logout(Request $request)
+    {
+        Auth::logout();
+        return redirect('/log');
+    }
 }

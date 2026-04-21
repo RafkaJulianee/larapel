@@ -19,12 +19,18 @@ class DatabaseSeeder extends Seeder
         $this->call([
             RoleSeeder::class,
         ]);
-
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
+         User::factory()->create([
+            'name' => 'Admin',
+            'email' => 'admin@example.com',
             // Default role_id untuk test user (misal 1 untuk admin atau user)
             'role_id' => 1,
+        ]);
+
+        User::factory()->create([
+            'name' => 'User',
+            'email' => 'user@example.com',
+            // Default role_id untuk test user (misal 1 untuk admin atau user)
+            'role_id' => 2,
         ]);
     }
 }

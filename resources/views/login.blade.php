@@ -35,7 +35,13 @@
 
             <h2>Login</h2>
 
-            <form action="#" method="POST" action="{{ route('login.post') }}">
+            @if(session('error'))
+                <div style="background: rgba(239, 68, 68, 0.1); color: #ef4444; border: 1px solid #ef4444; padding: 10px; border-radius: 8px; margin-bottom: 15px; font-size: 0.9rem;">
+                    {{ session('error') }}
+                </div>
+            @endif
+
+            <form method="POST" action="{{ route('login.post') }}">
                 @csrf
                 <div class="input-group">
                     <input type="email" name="email" placeholder="Username" required>
@@ -51,7 +57,7 @@
                     <label for="remember">Remember me</label>
                 </div>
 
-                <button type="submit" class="btn-submit" onclick="event.preventDefault(); alert('belum bisa login sistem nya');">Login</button>
+                <button type="submit" class="btn-submit">Login</button>
             </form>
 
 

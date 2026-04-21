@@ -14,7 +14,16 @@
   <div class="container">
     <br><br>
     <h3 class="text-center">DATA KELAS</h3>
-    <a href="{{route('kelas.create')}}" class="btn btn-primary mb-3">Tambah Kelas</a>
+    <div class="d-flex justify-content-between mb-3">
+      <div>
+        <a href="{{route('kelas.create')}}" class="btn btn-primary">Tambah Kelas</a>
+        <a href="{{route('siswa.index')}}" class="btn btn-info text-white">Data Siswa</a>
+      </div>
+      <form action="{{ route('logout') }}" method="POST">
+        @csrf
+        <button type="submit" class="btn btn-danger">Logout</button>
+      </form>
+    </div>
     <table class="table">
       <thead>
         <tr>

@@ -8,7 +8,10 @@
   </head>
   <body>
     <div class="container">
-        <h3>Form Tambah Kelas</h3>
+        <div class="d-flex justify-content-between align-items-center mt-4">
+            <h3>Form Tambah Kelas</h3>
+            <a href="{{ route('kelas.index') }}" class="btn btn-secondary">Kembali</a>
+        </div>
         
         <form action="{{ route('kelas.store')}}" method="POST">
             @csrf

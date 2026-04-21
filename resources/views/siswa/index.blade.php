@@ -12,7 +12,16 @@
 <body>
   <div class="container mt-5">
     <h3 class="text-center">DATA SISWA</h3>
-    <a href="{{ route('siswa.create') }}" class="btn btn-primary mb-3">Tambah Siswa</a>
+    <div class="d-flex justify-content-between mb-3">
+      <div>
+        <a href="{{ route('siswa.create') }}" class="btn btn-primary">Tambah Siswa</a>
+        <a href="{{ route('kelas.index') }}" class="btn btn-info text-white">Data Kelas</a>
+      </div>
+      <form action="{{ route('logout') }}" method="POST">
+        @csrf
+        <button type="submit" class="btn btn-danger">Logout</button>
+      </form>
+    </div>
 
     <table class="table table-striped">
       <thead>

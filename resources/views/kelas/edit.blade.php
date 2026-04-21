@@ -8,7 +8,10 @@
   </head>
   <body>
     <div class="container">
-        <h3 class="text-center">Edit Data</h3>
+        <div class="d-flex justify-content-between align-items-center mt-4">
+            <h3>Edit Data Kelas</h3>
+            <a href="{{ route('kelas.index') }}" class="btn btn-secondary">Kembali</a>
+        </div>
         
         <form action="{{ route('kelas.update',$kelas->id)}}" method="POST">
             @csrf

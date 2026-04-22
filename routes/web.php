@@ -20,7 +20,7 @@ Route::post('/login.post', [AuthController::class, 'login'])->name('login.post')
 Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 Route::middleware(['auth', 'role:admin'])->group(function () {
     Route::get('/admin', function () {
-        return "Halo ini halaman admin";
+        return redirect()->route('siswa.index');
     })->name('admin.dashboard');
 
     Route::get('/kelas', [KelasConstroller::class, 'index'])->name('kelas.index');
@@ -34,7 +34,7 @@ Route::middleware(['auth', 'role:admin'])->group(function () {
 
 Route::middleware(['auth', 'role:user'])->group(function () {
     Route::get('/user', function () {
-        return "Halaman User";
+        return 'Halo ini Halaman User. <form action="'.route('logout').'" method="POST" style="display:inline">'.csrf_field().'<button type="submit">Logout</button></form>';
     });
 });
 
